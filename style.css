@@ -43,6 +43,11 @@ header nav ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    transition: all ease 0.4s;
+}
+
+header nav ul li a:hover{
+    color: #f0ceb3;
 }
 
 header nav ul li::after{
@@ -111,3 +116,4 @@ header nav ul li::after{
     background: #eb9595d3;
     transform: translateY(-2px);
 }
+
