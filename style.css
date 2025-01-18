@@ -27,8 +27,9 @@ header nav{
 }
 
 header h1{
-    color: #9be2dbc5;
-    font-size: 22pt
+    color: #8d696c8e;
+    font-size: 22pt;
+    font-family: system-ui;
 }
 
 header nav ul li{
@@ -48,8 +49,65 @@ header nav ul li::after{
     content: '';
     height: 3px;
     width: 100%;
-    background: #009688;
+    background: #ffb7a8bb;
     position: absolute;
     left: 0;
     bottom: -10px;
+}
+
+.home-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: aliceblue;
+}
+
+.home-content h2{
+    font-size: 40px;
+    font-family:system-ui;
+    color: #bd8f83ef;
+    margin-top: 50px;
+}
+
+.home-content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.home-content form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home-content input{
+    width: 20%;
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-content button{
+    padding: 10px 20px;
+    background: #9b05009c;
+    border: 1px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s,ease-in;
+}
+
+.home-content button:hover{
+    background: #eb9595d3;
+    transform: translateY(-2px);
 }
