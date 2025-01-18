@@ -173,3 +173,32 @@ header nav ul li::after{
   .category-btn:hover {
     background: #e69592b6;
   }
+/* Biography Styles */
+#biography {
+  padding: 80px 5%;
+  background-color: #e6c8c8;
+}
+
+.bio-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.bio-image img {
+  width: 500px;
+  border-radius: 60px;
+}
+
+.bio-content h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #553f2d;
+}
+
+.bio-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #313030;
+}
