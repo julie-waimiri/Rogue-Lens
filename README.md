@@ -18,5 +18,11 @@ Check out the live version of the website here: [Rogue Lens](https://julie-waimi
 ## Project Setup Instructions
 To set up and run the project locally:
 1. Clone this repository:
-   ```bash
+
    git clone https://github.com/julie-waimiri/Rogue-Lens.git
+
+2. Navigate to the project directory:
+
+   cd Rogue-Lens
+
+3. Open index.html file with live server to view project
